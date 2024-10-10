@@ -3,9 +3,8 @@ secondary_name: ""
 navbar_name: "Yu Duan"
 
 positions:
-# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-#  name: PhD student @Northwestern Polytechnical University
-- name: PhD student @Northwestern Polytechnical University
+- logo: /assets/images/badges/npu.jpg  # Logo is optional
+  name: PhD student @Northwestern Polytechnical University
 
 
 email: "duanyuee@gmail.com"
