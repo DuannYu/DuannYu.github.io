@@ -16,7 +16,7 @@ authors:
   - Zhoumin Lu
   - Rong Wang
   - Xuelong Li
-  - Feiping Nie*
+  - Feiping Nie#
 links:
   Paper: /assets/papers/Toward_Balance_Deep_Semisupervised_Clustering.pdf
   Code: https://github.com/DuannYu/BalancedSemi-TNNLS
