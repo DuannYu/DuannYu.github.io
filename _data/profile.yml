@@ -1,17 +1,17 @@
-primary_name: "Your Name"
+primary_name: "Yu Duan"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "段昱"
 
 positions:
 - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+#  name: PhD student @Northwestern Polytechnical University
+- name: PhD student @Northwestern Polytechnical University
 
 
-email: "your@email.com"
+email: "duanyuee@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
+gscholar: MMP6miEAAAAJ&hl=zh-CN  # This is an example, replace it with your own Google Scholar ID
+github: https://github.com/DuannYu
 twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
