@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 
 abstract: >-
