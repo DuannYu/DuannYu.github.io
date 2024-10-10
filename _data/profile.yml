@@ -1,9 +1,9 @@
-primary_name: "Yu Duan"
+primary_name: "Yu Duan 段昱"
 secondary_name: ""
-navbar_name: "段昱"
+navbar_name: "Yu Duan"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 #  name: PhD student @Northwestern Polytechnical University
 - name: PhD student @Northwestern Polytechnical University
 
@@ -11,8 +11,8 @@ positions:
 email: "duanyuee@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: MMP6miEAAAAJ&hl=zh-CN  # This is an example, replace it with your own Google Scholar ID
-github: https://github.com/DuannYu
-twitter: your_twitter_id  # Do not include the '@' symbol
+github: DuannYu
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -22,12 +22,9 @@ twitter: your_twitter_id  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
-  <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Hi there! My name is Yu Duan (段昱), a PhD student at NWPU under the supervision of Prof. Feiping Nie.
+    My research interests focus on clustering, semi-supervised learning, representation learning.
+    I’m also deeply interested in guitar🎸, motocycle🏍️, and photography📷.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
