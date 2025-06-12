@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Yu Duan"
 
 positions:
-- logo: /assets/images/badges/xidian.jpg  # Logo is optional
-  name: Assistant Professor @Northwestern Xidian University
+- logo: /assets/images/badges/xidian.png  # Logo is optional
+  name: Assistant Professor @Xidian University
 
 
 email: "duanyuee@gmail.com"
