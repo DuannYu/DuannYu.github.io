@@ -14,7 +14,7 @@ authors:
   - Zhanxuan Hu
   - Rong Wang
   - Zhensheng Sun
-  - Feiping Nie*
+  - Feiping Nie#
   - Xuelong Li
 links:
   Paper: /assets/papers/msgcd.pdf
