@@ -11,9 +11,9 @@ pub_date:       "2025"
 cover:          /assets/images/covers/hypgcd.png
 authors:
   - Yu Duan
-  - Feiping Nie#
+  - Feiping Nie
   - Huimin Chen
-  - Zhanxuan Hu
+  - Zhanxuan Hu*
   - Rong Wang
   - Xuelong Li
 links:
