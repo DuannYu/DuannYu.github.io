@@ -19,4 +19,5 @@ authors:
 links:
   Paper: /assets/papers/msgcd.pdf
   Code: https://github.com/DuannYu/MSGCD
+  BibTex: /assets/bibtex/msgcd.html
 ---
