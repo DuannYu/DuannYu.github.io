@@ -17,6 +17,7 @@ authors:
   - Rong Wang
   - Xuelong Li
 links:
-#   Paper: /assets/papers/msgcd.pdf
-#   Code: https://github.com/DuannYu/MSGCD
+  Paper: /assets/papers/hypgcd.pdf
+  Code: https://github.com/DuannYu/HypGCD
+  BibTex: /assets/bibtex/hypgcd.html
 ---
