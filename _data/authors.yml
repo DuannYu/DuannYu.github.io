@@ -1,12 +1,14 @@
-"Yu Duan":
+Yu Duan:
   url: https://scholar.google.com/citations?user=MMP6miEAAAAJ&hl=zh-CN
   bold: true
 
 "Feiping Nie":
   url: https://scholar.google.com/citations?user=2oB4nAIAAAAJ&hl=zh-CN
+  bold: false
 
 "Rong Wang":
   url: https://scholar.google.com/citations?user=hmedL_wAAAAJ&hl=zh-CN
+  bold: false
 
 "Zhoumin Lu":
   url: https://scholar.google.com/citations?user=nCOy5BgAAAAJ&hl=zh-CN
