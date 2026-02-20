@@ -7,10 +7,11 @@ positions:
   name: Assistant Professor @Xidian University
 
 
-email: "duanyuee@gmail.com"
-email: "duanyu@xidian.edu.cn"
+emails:
+- "duanyuee@gmail.com"
+- "duanyu@xidian.edu.cn"
 # cv_link: link-to-your-cv-file
-gscholar: MMP6miEAAAAJ&hl=zh-CN  # This is an example, replace it with your own Google Scholar ID
+gscholar: MMP6miEAAAAJ  # Google Scholar user ID
 github: DuannYu
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
@@ -24,7 +25,7 @@ short_bio: >-
   <p>
     Hi there! My name is Yu Duan (段昱), an Assistant Professor at Xidian University.
     My research interests focus on clustering, semi-supervised learning, representation learning.
-    I'm also deeply interested in guitar🎸, motocycle🏍️, and photography📷.
+    I'm also deeply interested in guitar🎸, motorcycle🏍️, and photography📷.
   </p>
 
 portrait_url: /assets/images/photos/duanyu.jpg

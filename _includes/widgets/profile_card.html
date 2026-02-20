@@ -9,6 +9,7 @@
                         <div class="figure float-right ml-4 mb-4 d-none d-md-block">
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
+                                alt="Portrait of {{ site.data.profile.primary_name }}"
                                 class="figure-img img-fluid img-thumbnail" 
                                 style="height: 200px;"
                                 data-toggle="tooltip" 
@@ -23,7 +24,7 @@
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
                             {% if position.logo -%}
-                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
+                            <img src="{{ position.logo | relative_url }}" alt="{{ position.name }} logo" class="inline-badge"/>
                             {%- endif %}
                             {{ position.name }}<br/>
                             {% endfor %}
@@ -41,6 +42,7 @@
                     <div class="figure col-md-auto d-md-none">
                         <img 
                             src="{{ site.data.profile.portrait_url | relative_url }}" 
+                            alt="Portrait of {{ site.data.profile.primary_name }}"
                             class="figure-img img-fluid img-thumbnail" 
                             style="height: 200px;"
                             data-toggle="tooltip" 
@@ -53,9 +55,17 @@
                 <hr />
                 <div class="row">
                     <div class="col">
+                        {% if site.data.profile.emails %}
+                        {% for email in site.data.profile.emails %}
+                        <a class="pr-3 no-break" href="mailto:{{ email | encode_email }}">
+                            <i class="fas fa-at"></i> <span class="email-text">{{ email | replace: "@", "(at)" }}</span>
+                        </a>
+                        {% endfor %}
+                        {% elsif site.data.profile.email %}
                         <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
                             <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
                         </a>
+                        {% endif %}
 
                         {% if site.data.profile.gscholar %}
                         <a class="pr-3 no-break" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
