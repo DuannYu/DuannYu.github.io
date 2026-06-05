@@ -6,10 +6,12 @@ group: Showcase
 layout_type: collection
 height: 320px
 images:
-- src: /assets/images/showcases/bikes/speed%20400.jpg
-  title: Triumph Speed 400
 - src: /assets/images/showcases/bikes/super%20cub.jpg
   title: Honda Super Cub
+- src: /assets/images/showcases/bikes/speed%20400.jpg
+  title: Triumph Speed 400
+- src: /assets/images/showcases/bikes/cbr%20650r.jpg
+  title: Honda CBR 650R
 - src: /assets/images/showcases/bikes/z400.jpg
   title: Kawasaki Z400
 ---
