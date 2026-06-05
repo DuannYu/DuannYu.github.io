@@ -12,7 +12,7 @@ cover:          /assets/images/covers/afgcd.png
 authors:
   - Qiyu Xu
   - Zhanxuan Hu
-  - Yu Duan
+  - Yu Duan*
   - Ercheng Pei
   - Yonghang Tai
 links:
