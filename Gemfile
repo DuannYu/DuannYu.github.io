@@ -22,11 +22,11 @@ group :jekyll_plugins do
   gem "jekyll-email-protect"
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem.
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# wdm is optional and currently fails to build on newer Ruby versions.
+# Use `bundle exec jekyll serve --force_polling` on Windows instead.
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
