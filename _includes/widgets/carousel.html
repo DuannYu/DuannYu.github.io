@@ -11,9 +11,9 @@
                 {% if item.link %}<a href="{{ item.link }}" target="_blank">{% endif %}
                 <div class="lazy always-load d-block rounded-sm" data-src="{{ item.src }}" style="height: {{ include.height }};">
                 </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>{{ item.title }}</h5>
-                    <p>{{ item.desc }}</p>
+                <div class="carousel-caption showcase-carousel-caption d-block">
+                    {% if item.title %}<h5>{{ item.title }}</h5>{% endif %}
+                    {% if item.desc %}<p>{{ item.desc }}</p>{% endif %}
                 </div>
                 {% if item.link %}</a>{% endif %}
             </div>
