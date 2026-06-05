@@ -4,7 +4,7 @@ width: 6
 date: 2026-06-05 00:03:00 +0800
 group: Showcase
 layout_type: collection
-height: 460px
+height: 320px
 images:
 - src: /assets/images/showcases/bikes/speed%20400.jpg
   title: Triumph Speed 400

@@ -10,11 +10,25 @@ navbar_title: Showcase
 {% assign collection_items = showcase_items | where: "layout_type", "collection" | sort: "date" | reverse %}
 
 <div class="showcase-page">
-    {% for item in intro_items %}
     <header class="showcase-hero">
+        {% for item in intro_items %}
         {{ item.content }}
+        {% endfor %}
+
+        {% if collection_items.size > 0 %}
+        <aside class="showcase-hero-collection">
+            <div class="showcase-section-header">
+                <p class="showcase-section-label">Photo Collection</p>
+                <h2>Motorcycles</h2>
+            </div>
+            {% for item in collection_items %}
+            <article class="showcase-card showcase-carousel-card">
+                {{ item.content }}
+            </article>
+            {% endfor %}
+        </aside>
+        {% endif %}
     </header>
-    {% endfor %}
 
     {% if place_items.size > 0 %}
     <section class="showcase-section">
@@ -22,27 +36,13 @@ navbar_title: Showcase
             <p class="showcase-section-label">Places</p>
             <h2>Places I Keep</h2>
         </div>
-        <div class="showcase-feature-grid">
+        <div class="showcase-mosaic">
             {% for item in place_items %}
-            <article class="showcase-card">
+            <article class="showcase-card showcase-mosaic-item showcase-tile-{{ item.tile_size | default: 'standard' }}">
                 {{ item.content }}
             </article>
             {% endfor %}
         </div>
-    </section>
-    {% endif %}
-
-    {% if collection_items.size > 0 %}
-    <section class="showcase-section showcase-section-rides">
-        <div class="showcase-section-header">
-            <p class="showcase-section-label">Rides</p>
-            <h2>Motorcycles</h2>
-        </div>
-        {% for item in collection_items %}
-        <article class="showcase-card showcase-carousel-card">
-            {{ item.content }}
-        </article>
-        {% endfor %}
     </section>
     {% endif %}
 </div>

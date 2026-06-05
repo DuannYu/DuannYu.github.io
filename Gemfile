@@ -30,3 +30,4 @@ gem "tzinfo-data", platforms: [:windows, :jruby]
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
+gem "base64"

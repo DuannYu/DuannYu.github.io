@@ -4,6 +4,7 @@ width: 6
 date: 2026-06-05 00:02:00 +0800
 group: Showcase
 layout_type: place
+tile_size: standard
 ---
 
 <figure class="showcase-photo m-0">
