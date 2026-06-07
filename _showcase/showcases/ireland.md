@@ -9,5 +9,5 @@ tile_size: feature
 
 <figure class="showcase-photo m-0">
     <img data-src="{{ '/assets/images/showcases/ireland.jpg' | relative_url }}" alt="St Patrick's Church, Dublin" class="lazy w-100" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
-    <figcaption class="showcase-caption">St Patrick's Church, Ireland</figcaption>
+    <figcaption class="showcase-caption">St Patrick's Church, Dublin</figcaption>
 </figure>
