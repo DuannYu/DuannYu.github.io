@@ -353,3 +353,128 @@ div.lazy {
     color: #495057;
 }
 
+/* Experience Card Hover Effects */
+.experience-item {
+    transition: all 0.3s ease;
+    padding: 0.5rem 0.75rem;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.experience-item:hover {
+    background-color: #f8f9fa;
+    padding-left: 1.25rem;
+    transform: translateX(0.3rem);
+    box-shadow: inset 2px 0 0 #0d6efd;
+}
+
+.experience-item:hover .experience-logo {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.experience-item:hover .experience-name,
+.experience-item:hover .experience-position {
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+.experience-logo {
+    transition: transform 0.3s ease;
+}
+
+.experience-name {
+    font-weight: 600;
+    color: #212529;
+    transition: color 0.3s ease;
+}
+
+.experience-dept {
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.experience-position {
+    color: #495057;
+    transition: color 0.3s ease;
+}
+
+.experience-date {
+    color: #6c757d;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Publication Card Hover Effects */
+.publication-item-card {
+    transition: all 0.3s ease;
+}
+
+.publication-item-inner {
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    border-radius: 4px;
+}
+
+.publication-item-card:hover .publication-item-inner {
+    background-color: #f8f9fa;
+    padding-left: 0.75rem;
+    padding-right: 0.5rem;
+    box-shadow: inset 2px 0 0 #0d6efd;
+}
+
+.publication-item-card:hover .publication-cover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.publication-cover {
+    transition: all 0.3s ease;
+}
+
+.publication-content {
+    transition: all 0.3s ease;
+}
+
+.publication-item-card:hover .publication-title {
+    color: #0d6efd;
+}
+
+.publication-item-card:hover .publication-authors {
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+.publication-title {
+    transition: color 0.3s ease;
+    font-weight: 600;
+    color: #212529;
+}
+
+.publication-authors {
+    color: #495057;
+    transition: color 0.3s ease;
+}
+
+.publication-pub {
+    color: #6c757d;
+}
+
+.publication-abstract {
+    color: #6c757d;
+}
+
+.publication-links a {
+    transition: all 0.3s ease;
+}
+
+.publication-links a:hover {
+    color: #0d6efd !important;
+    text-decoration: underline;
+}
+
+
